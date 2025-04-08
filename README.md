@@ -30,4 +30,4 @@ Step 1:Modify ./smart_allocator/ai_integration.py and add your application name 
 Step 2: Run sudo python3 ./smart_allocator/ai_integration.py
 
 
-Done :-)
+Done 🙂
