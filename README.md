@@ -5,10 +5,6 @@ AI-Optimized OS
 
     • Base: Pop!_OS
 
-    • Source Code: Pop!_OS GitHub
-
-    • Documentation: Pop!_OS Documentation
-
     • Modification Goals:
         ◦ Pre-install TensorFlow and PyTorch for AI research.
         ◦ Integrate GPU performance monitoring tools.
