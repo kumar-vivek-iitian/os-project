@@ -10,6 +10,9 @@ RESET="\033[0m"
 
 echo -e "${GREEN}Post-Install Script for TensorFlow and PyTorch...${RESET}"
 
+echo -e "Pulling tensorman latest:"
+tensorman pull latest
+
 if ! command -v docker >/dev/null 2>&1; then
     echo -e "${RED}Docker is not installed. Please install Docker before proceeding.${RESET}"
     exit 1
@@ -45,3 +48,5 @@ echo -e "${GREEN}SUCCESS:${RESET} TensorFlow and PyTorch Docker containers teste
 echo -e "${ORANGE}Optional: Add your user to the docker group to avoid using 'sudo'. Run:${RESET}"
 echo -e "${BLUE}sudo usermod -aG docker \$USER && newgrp docker${RESET}"
 
+echo -e "RUN your python script using this command:"
+echo -e "tensorman run --gpu python ./filename"
