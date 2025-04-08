@@ -50,3 +50,6 @@ echo -e "${BLUE}sudo usermod -aG docker \$USER && newgrp docker${RESET}"
 
 echo -e "RUN your python script using this command:"
 echo -e "tensorman run --gpu python ./filename"
+echo -e "OR"
+echo -e "You can use docker to run your application. Use the following command: "
+echo -e "docker run -v ./<yourfilename>:/app.py --rm --gpus all pytorch/pytorch:latest python3 /app.py"
