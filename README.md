@@ -84,3 +84,6 @@ Vivek Kumar (23JE1091), Mani Sainath Reddy and Yuvraj Singh worked on the Part 2
 Vedaansh, Neharika and Shalini worked on Part 3, add smart resource allocation using basic machine learning. The smart allocator python program is [here](./smart_allocator/).
 
 However, discussion and implementation of each points was discussed by entire team as a whole.
+
+
+
